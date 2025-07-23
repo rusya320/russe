@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: white;
+}
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 20px;
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1b1b1b;
+  padding: 10px 20px;
+}
+
+.menu a {
+  color: #bbb;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.search-bar {
+  display: flex;
+  gap: 10px;
+}
+
+.search-bar input,
+.search-bar select {
+  padding: 5px;
+  background-color: #333;
+  color: white;
+  border: none;
+}
+
+.hero {
+  background-image: url('images/csgo-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  
+}
+
+.hero .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.updates {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.updates .cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.card img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+ 
+}
+
+.champions,
+.stage {
+  padding: 30px 20px;
+  background-color: #222;
+}
+
+.champ-card,
+.stage-card {
+  display: flex;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.champ-card img,
+.stage-card img {
+  width: 300px;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1b1b1b;
+}
+
+footer nav a {
+  color: #bbb;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+footer nav a:hover {
+  color: #ffd700;
+}
+p{
+    width: 400px;
+}
+.menu :hover{
+ color: #FF9C28;
+}
+.ac{
+   width: 20px;
+}
+.a{
+    width: 100px;
+    height: 70px;
+   
+}
+.ab{
+    width: 100px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+}
+.ddd {
+    margin-top: -170px;
+}
+.yyy{
+    margin-left: 1050px;
+}
